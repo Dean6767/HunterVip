@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "ReleaseNotes": "ATUALIZANDO OPCOES..",
   "UrlUpdate": "https://dean6767.github.io/HunterVip/UrlUpdate",
   "Sms": "https://dean6767.github.io/HunterVip/UrlSms",
@@ -47,7 +47,7 @@
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
-      "TlsIP": "rdc1.deanpola.xyz",
+      "TlsIP": "rdc2.deanpola.xyz",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
