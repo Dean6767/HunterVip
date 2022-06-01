@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.3",
-  "ReleaseNotes": "ATUALIZANDO OPCOES..",
+  "Version": "1.0.4",
+  "ReleaseNotes": "Atualizando configs..",
   "UrlUpdate": "https://dean6767.github.io/HunterVip/UrlUpdate",
   "Sms": "https://dean6767.github.io/HunterVip/UrlSms",
   "EmailFeedback": "revhuntervpn@gmail.com",
@@ -141,6 +141,16 @@
       "ProxyIP": "",
       "ProxyPort": "8080",
       "Info": "Direct"
+    },
+    {
+      "Name": "TIM VIP 10",
+      "FLAG": "tim",
+      "Payload": "GET wss://beringtime.com HTTP/1.1\nHost: [app_host_proxy]\nUpgrade: ws\n\n",
+      "SNI": "beringtime.com",
+      "TlsIP": "beringtime.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
     {
       "Name": "CLARO VIP 01 (RAPIDA)",
