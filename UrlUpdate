@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.4",
-  "ReleaseNotes": "Atualizando configs..",
+  "Version": "1.0.5",
+  "ReleaseNotes": "Atualizando configs da Claro..",
   "UrlUpdate": "https://dean6767.github.io/HunterVip/UrlUpdate",
   "Sms": "https://dean6767.github.io/HunterVip/UrlSms",
   "EmailFeedback": "revhuntervpn@gmail.com",
@@ -178,6 +178,26 @@
       "Payload": "GET wss://content.akross.com.br HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: ws[crlf][crlf]",
       "SNI": "content.akross.com.br",
       "TlsIP": "content.akross.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO VIP 04 (NOVO) (RAPIDA)",
+      "FLAG": "claro",
+      "Payload": "GET wss://Atendimento.descomplica.com.br HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: covid[crlf][crlf]",
+      "SNI": "Atendimento.descomplica.com.br",
+      "TlsIP": "No.descomplica.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO VIP 05 (NOVO)",
+      "FLAG": "claro",
+      "Payload": "GET wss://atendimento.descomplica.com.br/ HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "atendimento.descomplica.com.br",
+      "TlsIP": "199.60.103.228",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
