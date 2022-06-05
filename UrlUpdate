@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.5",
-  "ReleaseNotes": "Atualizando configs da Claro..",
+  "Version": "1.0.6",
+  "ReleaseNotes": "Atualizando configs da Claro & Tim..",
   "UrlUpdate": "https://dean6767.github.io/HunterVip/UrlUpdate",
   "Sms": "https://dean6767.github.io/HunterVip/UrlSms",
   "EmailFeedback": "revhuntervpn@gmail.com",
@@ -198,6 +198,66 @@
       "Payload": "GET wss://atendimento.descomplica.com.br/ HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "atendimento.descomplica.com.br",
       "TlsIP": "199.60.103.228",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO VIP 06 (NOVO)",
+      "FLAG": "claro",
+      "Payload": "GET wss://ipv4.icanhazip.com/ HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: Hunter[crlf][crlf]",
+      "SNI": "ipv4.icanhazip.com",
+      "TlsIP": "ipv4.icanhazip.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO VIP 07 (NOVO)",
+      "FLAG": "claro",
+      "Payload": "GET wss://4.icanhazip.com/ HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: Hunter[crlf][crlf]",
+      "SNI": "4.icanhazip.com",
+      "TlsIP": "4.icanhazip.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO VIP 08 (NOVO)",
+      "FLAG": "claro",
+      "Payload": "GET wss://api.new.livestream.com/ HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: hunter[crlf][crlf]",
+      "SNI": "api.new.livestream.com",
+      "TlsIP": "api.new.livestream.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO VIP 09 (NOVO)",
+      "FLAG": "claro",
+      "Payload": "GET wss://api.new.livestream.com/ HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: hunter[crlf][crlf]",
+      "SNI": "api.new.livestream.com",
+      "TlsIP": "api.new.livestream.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO VIP 10 (NOVO)",
+      "FLAG": "claro",
+      "Payload": "GET wss://www.icanhazip.com/ HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: hunter[crlf][crlf]",
+      "SNI": "icanhazip.com",
+      "TlsIP": "icanhazip.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+     {
+      "Name": "CLARO VIP 11 (NOVO)",
+      "FLAG": "claro",
+      "Payload": "GET wss://icanhazip.com/ HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: hunter[crlf][crlf]",
+      "SNI": "www.icanhazip.com",
+      "TlsIP": "www.icanhazip.com",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
