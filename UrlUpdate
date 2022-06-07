@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.7",
+  "Version": "1.0.8",
   "ReleaseNotes": "Atualizando configs da Claro & Tim..",
   "UrlUpdate": "https://dean6767.github.io/HunterVip/UrlUpdate",
   "Sms": "https://dean6767.github.io/HunterVip/UrlSms",
@@ -168,6 +168,16 @@
       "Payload": "GET wss://ear-test.3cyber.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Hunter[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "ear-test.3cyber.com",
       "TlsIP": "ear-test.3cyber.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM VIP 13",
+      "FLAG": "tim",
+      "Payload": "GET sni://static.r4you.co [protocol][crlf]Host: [app_host_proxy][crlf]X-Forwarded-For: [app_host_proxy][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: RevHunter[crlf][crlf]",
+      "SNI": "static.r4you.co",
+      "TlsIP": "static.r4you.co",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
