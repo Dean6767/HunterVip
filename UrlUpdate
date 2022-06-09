@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.9",
-  "ReleaseNotes": "Atualizando configs da Claro & Tim..",
+  "Version": "2.0.0",
+  "ReleaseNotes": "Atualizando configs da TIM..",
   "UrlUpdate": "https://dean6767.github.io/HunterVip/UrlUpdate",
   "Sms": "https://dean6767.github.io/HunterVip/UrlSms",
   "EmailFeedback": "revhuntervpn@gmail.com",
@@ -178,6 +178,16 @@
       "Payload": "GET sni://static.r4you.co [protocol][crlf]Host: [app_host_proxy][crlf]X-Forwarded-For: [app_host_proxy][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: RevHunter[crlf][crlf]",
       "SNI": "static.r4you.co",
       "TlsIP": "static.r4you.co",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM VIP 14",
+      "FLAG": "tim",
+      "Payload": "GET wss://empresas.alura.com.br/ HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: RevHunter[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "empresas.alura.com.br",
+      "TlsIP": "empresas.alura.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
