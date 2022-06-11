@@ -1,6 +1,6 @@
 {
-  "Version": "2.0.0",
-  "ReleaseNotes": "Atualizando configs da TIM..",
+  "Version": "2.0.1",
+  "ReleaseNotes": "Atualizando configs..",
   "UrlUpdate": "https://dean6767.github.io/HunterVip/UrlUpdate",
   "Sms": "https://dean6767.github.io/HunterVip/UrlSms",
   "EmailFeedback": "revhuntervpn@gmail.com",
@@ -315,7 +315,7 @@
     {
       "Name": "OI VIP 01",
       "FLAG": "oi",
-      "Payload": "GET wss://www.hbogo.com.br HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: ws[crlf][crlf]",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: vproxy.deanpola.xyz\nUpgrade: WebSocket\n\n",
       "SNI": "www.hbogo.com.br",
       "TlsIP": "www.hbogo.com.br",
       "ProxyIP": "",
