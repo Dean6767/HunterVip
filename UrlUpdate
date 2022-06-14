@@ -1,6 +1,6 @@
 {
-  "Version": "2.0.2",
-  "ReleaseNotes": "Atualizando configs VIVO..",
+  "Version": "2.0.3",
+  "ReleaseNotes": "Atualizando configs CLARO..",
   "UrlUpdate": "https://dean6767.github.io/HunterVip/UrlUpdate",
   "Sms": "https://dean6767.github.io/HunterVip/UrlSms",
   "EmailFeedback": "revhuntervpn@gmail.com",
@@ -308,6 +308,16 @@
       "Payload": "GET wss://connect.kaltura.com/ HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: hunter[crlf][crlf]",
       "SNI": "connect.kaltura.com",
       "TlsIP": "connect.kaltura.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO VIP 13 (NOVO)",
+      "FLAG": "claro",
+      "Payload": "GET wss://go.kaltura.com/ HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: hunter[crlf][crlf]",
+      "SNI": "go.kaltura.com",
+      "TlsIP": "go.kaltura.com",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
