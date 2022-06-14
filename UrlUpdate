@@ -1,6 +1,6 @@
 {
-  "Version": "2.0.1",
-  "ReleaseNotes": "Atualizando configs..",
+  "Version": "2.0.2",
+  "ReleaseNotes": "Atualizando configs VIVO..",
   "UrlUpdate": "https://dean6767.github.io/HunterVip/UrlUpdate",
   "Sms": "https://dean6767.github.io/HunterVip/UrlSms",
   "EmailFeedback": "revhuntervpn@gmail.com",
@@ -28,7 +28,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.7.80",
+      "ProxyIP": "104.24.24.34",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -37,7 +37,7 @@
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
-      "TlsIP": "rdc.deanpola.xyz",
+      "TlsIP": "162.159.136.63",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -47,7 +47,7 @@
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
-      "TlsIP": "rdc2.deanpola.xyz",
+      "TlsIP": "rdc.deanpola.xyz",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
