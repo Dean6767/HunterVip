@@ -1,6 +1,6 @@
 {
-  "Version": "2.0.4",
-  "ReleaseNotes": "Atualizando configs Gerais..",
+  "Version": "2.0.5",
+  "ReleaseNotes": "Atualizando configs CLARO🔴..",
   "UrlUpdate": "https://dean6767.github.io/HunterVip/UrlUpdate",
   "Sms": "https://dean6767.github.io/HunterVip/UrlSms",
   "EmailFeedback": "revhuntervpn@gmail.com",
@@ -318,6 +318,16 @@
       "Payload": "GET wss://go.kaltura.com/ HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: hunter[crlf][crlf]",
       "SNI": "go.kaltura.com",
       "TlsIP": "go.kaltura.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO VIP 14 (NOVO)",
+      "FLAG": "claro",
+      "Payload": "GET wss://communitystaging.kaltura.com/ HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: Hunter[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "communitystaging.kaltura.com",
+      "TlsIP": "communitystaging.kaltura.com",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
