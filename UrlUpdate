@@ -75,7 +75,7 @@
     {
       "Name": "VIVO INJECT TLS 04.2 (EASY 2) 🟣",
       "FLAG": "vivo",
-      "Payload": "GET wss://unpkg.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "GET wss://unpkg.com/ HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "unpkg.com",
       "TlsIP": "unpkg.com",
       "ProxyIP": "",
