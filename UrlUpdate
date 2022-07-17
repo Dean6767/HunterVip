@@ -1,6 +1,6 @@
 {
-  "Version": "2.0.9",
-  "ReleaseNotes": "Atualização DA VIVO...",
+  "Version": "3.0.0",
+  "ReleaseNotes": "Atualização Geral...",
   "UrlUpdate": "https://dean6767.github.io/HunterVip/UrlUpdate",
   "Sms": "https://dean6767.github.io/HunterVip/UrlSms",
   "EmailFeedback": "revhuntervpn@gmail.com",
@@ -46,11 +46,11 @@
       "Name": "VIVO VIP 03",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "rdc.deanpola.xyz",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.6.80",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
     {
       "Name": "VIVO VIP 04 (EASY)",
@@ -218,6 +218,16 @@
       "Payload": "GET wss://empresas.alura.com.br/ HTTP/1.1[crlf]Host: vvproxy.deanpola.xyz[crlf]Upgrade: RevHunter[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "empresas.alura.com.br",
       "TlsIP": "empresas.alura.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM VIP 15",
+      "FLAG": "tim",
+      "Payload": "GET wss://api-tim.oston.io/ HTTP/1.1[crlf]Host: vvproxy.deanpola.xyz[crlf]Upgrade: RevHunter[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "api-tim.oston.io",
+      "TlsIP": "api-tim.oston.io",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
