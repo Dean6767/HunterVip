@@ -1,5 +1,5 @@
 {
-  "Version": "3.0.3",
+  "Version": "3.0.4",
   "ReleaseNotes": "Atualização Geral de Configs...",
   "UrlUpdate": "https://dean6767.github.io/HunterVip/UrlUpdate",
   "Sms": "https://dean6767.github.io/HunterVip/UrlSms",
@@ -268,6 +268,16 @@
       "Payload": "GET wss://www.alura.com.br/ HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: RevHunter[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "www.alura.com.br",
       "TlsIP": "www.alura.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM INJECT TLS 16.7 🔵",
+      "FLAG": "tim",
+      "Payload": "GET wss://api-tim.oston.io/ HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: RevHunter[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "api-tim.oston.io",
+      "TlsIP": "api-tim.oston.io",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
