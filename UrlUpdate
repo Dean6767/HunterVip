@@ -1,5 +1,5 @@
 {
-  "Version": "3.0.2",
+  "Version": "3.0.3",
   "ReleaseNotes": "Atualização Geral de Configs...",
   "UrlUpdate": "https://dean6767.github.io/HunterVip/UrlUpdate",
   "Sms": "https://dean6767.github.io/HunterVip/UrlSms",
@@ -383,7 +383,47 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "OI INJECT PROXY 21 🟡",
+      "Name": "CLARO INJECT SSL 21 🔴",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "dns.web.whatsapp.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+    },
+    {
+      "Name": "CLARO INJECT SSL 22 🔴",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "m.waze.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+    },
+    {
+      "Name": "CLARO INJECT SSL 23 🔴",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "c.whatsapp.net",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+    },
+    {
+      "Name": "CLARO INJECT SSL 24 🔴",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "m.twitter.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+    },
+    {
+      "Name": "OI INJECT PROXY 25 🟡",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: vproxy.deanpola.xyz\nUpgrade: WebSocket\n\n",
       "SNI": "www.hbogo.com.br",
