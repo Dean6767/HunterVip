@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.0",
-  "ReleaseNotes": "",
+  "Version": "1.0.1",
+  "ReleaseNotes": "ATUALIZE!",
   "UrlUpdate": "https://dean6767.github.io/HunterVip/p/UrlUpdate",
   "Sms": "https://dean6767.github.io/HunterVip/p/UrlSms",
   "EmailFeedback": "revhuntervpn@gmail.com",
@@ -28,7 +28,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: d1klwbyiwm2gbj.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "13.35.118.90",
+      "ProxyIP": "live.vivo.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
