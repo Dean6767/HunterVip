@@ -1,5 +1,5 @@
 {
-  "Version": "3.0.4",
+  "Version": "3.0.5",
   "ReleaseNotes": "Atualização Geral de Configs...",
   "UrlUpdate": "https://dean6767.github.io/HunterVip/UrlUpdate",
   "Sms": "https://dean6767.github.io/HunterVip/UrlSms",
@@ -22,6 +22,16 @@
     }
   ],
   "Networks": [
+    {
+      "Name": "VIVO AZN PROXY🟣",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: jblbbk1bnx.map.azionedge.net[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "jblbbk1bnx.map.azionedge.net",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
     {
       "Name": "VIVO INJECT PROXY 01 (REGIÕES) 🟣",
       "FLAG": "vivo",
