@@ -1,6 +1,6 @@
 {
-  "Version": "3.0.5",
-  "ReleaseNotes": "Atualização Geral de Configs...",
+  "Version": "3.0.6",
+  "ReleaseNotes": "Opções TIM atualizadas 🔵...",
   "UrlUpdate": "https://dean6767.github.io/HunterVip/UrlUpdate",
   "Sms": "https://dean6767.github.io/HunterVip/UrlSms",
   "EmailFeedback": "revhuntervpn@gmail.com",
@@ -22,16 +22,6 @@
     }
   ],
   "Networks": [
-    {
-      "Name": "VIVO AZN PROXY🟣",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: jblbbk1bnx.map.azionedge.net[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "jblbbk1bnx.map.azionedge.net",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
     {
       "Name": "VIVO INJECT PROXY 01 (REGIÕES) 🟣",
       "FLAG": "vivo",
@@ -288,6 +278,16 @@
       "Payload": "GET wss://api-tim.oston.io/ HTTP/1.1[crlf]Host: vproxy.deanpola.xyz[crlf]Upgrade: RevHunter[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "api-tim.oston.io",
       "TlsIP": "api-tim.oston.io",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM INJECT TLS 16.8 (NOVO) 🔵",
+      "FLAG": "tim",
+      "Payload": "GET wss://bam.nr-data.net/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "bam.nr-data.net",
+      "TlsIP": "bam.nr-data.net",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
