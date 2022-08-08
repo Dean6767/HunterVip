@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.1",
+  "Version": "1.0.0",
   "ReleaseNotes": "ATUALIZE!",
   "UrlUpdate": "https://dean6767.github.io/HunterVip/p/UrlUpdate",
   "Sms": "https://dean6767.github.io/HunterVip/p/UrlSms",
@@ -25,11 +25,11 @@
     {
       "Name": "VIVO VIP 01",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d1klwbyiwm2gbj.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "live.vivo.com.br",
-      "ProxyPort": "80",
+      "ProxyIP": "",
+      "ProxyPort": "",
       "Info": "Proxy"
     },
     {
